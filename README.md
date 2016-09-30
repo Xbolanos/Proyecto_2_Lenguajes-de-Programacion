@@ -1,2 +1,17 @@
 # Proyecto_2_Lenguajes-de-Programacion
-Proyecto 2-Lenguajes de Programación
+
+Installation
+===========
+Para un mejor uso del programa se recomienda utilizar SWI-Prolog. 
+
+Usage
+===========
+La regla 'comprime' contiene como parametros:
+-Nombre: es donde se pone el nombre del archivo con el formato "nombre.txt".
+-Árbol: que se ingresa una variable libre porque es un parámetro de salida para mostrar el árbol.
+La regla 'descomprime' contiene como parametros:
+-Palabra: que contiene todo el contenido del archivo, lo cual siempre se le ingresa una variable libre. 
+-Árbol: que se ingresa una variable libre porque es un parámetro de salida para mostrar el árbol.
+Known Issues
+============
+Se debe tener cuidado ya que los archivos que se van a comprimir solo pueden ser .txt y no pueden ser muy largos porque se excedería del límite de las recursiones.
